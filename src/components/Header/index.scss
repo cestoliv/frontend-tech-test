@@ -1,3 +1,16 @@
 .header {
-    background-color: lumx-color-variant('primary', 'N');
+  background-color: lumx-color-variant('primary', 'N');
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.header-content {
+  max-width: 65rem;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.logo {
+  height: 36px;
 }
